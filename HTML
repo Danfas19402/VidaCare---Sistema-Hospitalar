@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VidaCare - Sistema Hospitalar</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>VidaCare - Gerenciamento de Pacientes</h1>
+  </header>
+
+  <section class="hero">
+    <img src="img/Hospital.jpg" alt="Hospital" />
+    <div>
+      <h2>Gestão Eficiente e Humanizada</h2>
+      <p>Organize os dados dos pacientes com facilidade, segurança e rapidez.</p>
+    </div>
+  </section>
+
+  <section class="video-section">
+    <h2>Veja como funciona:</h2>
+    <video controls width="500">
+      <source src="vídeos/Como Organizar Prontuário de Paciente - 2024.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo.
+    </video>
+  </section>
+
+  <section class="form-section">
+    <h2>Cadastro de Paciente</h2>
+    <form id="patientForm">
+      <input type="text" placeholder="Nome do paciente" id="nome" required />
+      <input type="number" placeholder="Idade" id="idade" required />
+      <input type="text" placeholder="Diagnóstico" id="diagnostico" required />
+      <button type="submit">Cadastrar</button>
+    </form>
+  </section>
+
+  <section class="pacientes">
+    <h2>Pacientes Cadastrados</h2>
+    <ul id="listaPacientes"></ul>
+  </section>
+
+  <footer>
+    <p>© 2025 VidaCare - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
