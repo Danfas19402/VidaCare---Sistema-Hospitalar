@@ -1,0 +1,87 @@
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #003366;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 30px;
+  background-color: #e6f2ff;
+}
+
+.hero img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.video-section {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.form-section {
+  background-color: #dff0d8;
+  padding: 40px;
+  text-align: center;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+.form-section input,
+.form-section button {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-section button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pacientes {
+  padding: 30px;
+  background-color: #f8f9fa;
+}
+
+#listaPacientes {
+  list-style: none;
+  padding: 0;
+}
+
+#listaPacientes li {
+  background-color: #cce5ff;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
